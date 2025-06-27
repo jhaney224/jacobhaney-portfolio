@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import "tailwindcss";
+
+/* General */
+@theme {
+  --font-poppins: "Poppins", sans-serif;
+  --font-inter: "Inter", sans-serif;
+  --color-textPrimary: #F1F5F9; /* Slate-100 */
+  --color-accent: #00bcff; /* Sky-400 */
+  --color-accentHover: #00a6f4; /* Sky-500 */
+  --color-buttonBackground: #00bcff; /* Sky-400 */
+  --color-buttonHover: #00a6f4; /* Sky-500 */
+}
+
+#root {
+  @apply w-full min-h-screen px-5 overflow-hidden text-textPrimary bg-slate-900 font-inter text-base md:text-lg;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  color-scheme: light dark;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* HTML Tags */
+section {
+  @apply p-5 mt-10;
+}
+
+:is(h1, h2, h3, h4, h5, h6) {
+  @apply font-poppins font-bold;
+}
+
+h2 {
+  @apply text-3xl;
+}
+
+h3 {
+  @apply text-2xl;
+}
+
+h4 {
+  @apply text-xl;
+}
+
+p {
+  @apply leading-relaxed;
+}
+
+footer > div > p {
+  @apply text-sm;
+}
+
+a {
+  @apply text-accent hover:text-accentHover;
+}
+
+label {
+    font-optical-sizing: auto;
+    @apply font-poppins font-bold not-italic block mb-2;
+}
+
+input, textarea {
+    @apply mb-6 max-w-full px-4 py-2 rounded-lg transition-all duration-300 bg-white text-black border-2 border-black border-solid;
+}
+
+/* Class Styles */
+button, .button {
+  @apply bg-buttonBackground p-4 m-4 rounded-2xl font-bold text-sm text-[#1A1A1A] shadow-sm transition duration-200 hover:bg-buttonHover hover:scale-105;
+}
+
+.selected {
+  @apply text-[#FDFDFD] font-bold;
+}
+
+.card {
+  @apply bg-slate-800/90 p-4 rounded-md shadow-sm border border-gray-200 font-medium hover:scale-105 transition;
+}
+
+.bg-animated-gradient {
+  background: linear-gradient(-45deg, #1f2d40, #2a3954, #34455f, #3c5069);
+  background-size: 400% 400%;
+  animation: gradientShift 15s ease infinite;
+}
+
+/* Animations */
+@keyframes gradientShift {
+  0%, 100% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+}
