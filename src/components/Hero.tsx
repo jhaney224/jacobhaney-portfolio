@@ -48,7 +48,7 @@ export default function Hero({heading, subtext, heroButtons} : HeroProps) {
     }, []);
 
     return (
-        <div ref={heroRef} className="relative min-h-[70vh] flex flex-col bg-cover bg-no-repeat bg-fixed h-screen items-center justify-center text-center">
+        <div ref={heroRef} className="relative min-h-[55vh] flex flex-col bg-cover bg-no-repeat bg-fixed items-center justify-center text-center md:min-h-[70vh]">
             <div className="absolute inset-0 bg-animated-gradient opacity-30 blur-2xl z-0" />
 
             <div className="relative z-10 flex flex-col items-center justify-center h-full">
