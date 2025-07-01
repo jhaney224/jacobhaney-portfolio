@@ -33,8 +33,8 @@ export default function Navbar({ brandName, imageSrcPath }: NavbarProps) {
   }, []);
 
   return (
-    <nav className="w-full px-6 py-4 bg-transparent">
-      <div className="max-w-6xl mx-auto flex items-center justify-between flex-wrap">
+    <nav className="w-full px-6 py-4 bg-transparent flex">
+      <div className="max-w-6xl mx-auto flex flex-1/2 items-center justify-between flex-wrap">
         {/* Logo */}
         <a href="/" className="flex items-center hover:scale-105 transition">
           <img src={imageSrcPath} alt={`${brandName} Logo`} className="w-auto" />
