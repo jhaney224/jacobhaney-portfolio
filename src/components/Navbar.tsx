@@ -33,17 +33,19 @@ export default function Navbar({ brandName, imageSrcPath }: NavbarProps) {
   }, []);
 
   return (
-    <nav className="w-full px-6 py-4 bg-transparent flex">
-      <div className="max-w-6xl mx-auto flex flex-1/2 items-center justify-between flex-wrap">
-        {/* Logo */}
-        <a href="/" className="flex items-center hover:scale-105 transition">
-          <img src={imageSrcPath} alt={`${brandName} Logo`} className="w-auto" />
-        </a>
+    <nav className="w-full px-6 py-4 bg-transparent">
+      <div className="max-w-6xl mx-auto flex items-center justify-between flex-wrap">
+        <div className="w-full flex items-center justify-between lg:w-auto">
+          {/* Logo */}
+          <a href="/" className="hover:scale-105 transition">
+            <img src={imageSrcPath} alt={`${brandName} Logo`} className="w-auto" />
+          </a>
 
-        {/* Hamburger Toggle (Mobile) */}
-        <button className="block lg:hidden p-2 text-gray-700" onClick={toggleMenu} aria-label="Toggle menu">
-          <FaBars size={20} />
-        </button>
+          {/* Hamburger Toggle (Mobile only) */}
+          <button className="lg:hidden p-2 text-gray-700" onClick={toggleMenu} aria-label="Toggle menu">
+            <FaBars size={24} />
+          </button>
+        </div>
 
         {/* Nav Links */}
         <ul className={`w-full lg:w-auto lg:flex lg:items-center lg:gap-6 mt-4 lg:mt-0 ${isMenuOpen ? "block" : "hidden"}`}>
