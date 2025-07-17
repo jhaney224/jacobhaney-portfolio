@@ -12,6 +12,9 @@ const educationCards = [
             "• VP, Neurodiversity Support Club"
         ]
     },
+    { title: "PHP For WordPress", description: ["<i>LinkedIn (Earned in Jul 2025)</i>"]},
+    { title: "Learning Webflow", description: ["<i>LinkedIn (Earned in Jul 2025)</i>"]},
+    { title: "SEO Foundations", description: ["<i>LinkedIn (Earned in Jul 2025)</i>"]},
     { title: "Vue.js Certificate", description: ["<i>W3Schools (Earned in Jan 2025)</i>"] },
     { title: "Node.js Certificate", description: ["<i>W3Schools (Earned in Dec 2024)</i>"] },
     { title: "Modern Web Dev Certificate", description: ["<i>W3Schools (Earned in Dec 2024)</i>"] },
@@ -56,7 +59,7 @@ const funFactCards = [
 const categoriesAndSkills = [
     { title: "</> Frontend", items: ["HTML", "CSS", "JavaScript", "React.js", "Vue.js", "TypeScript"]}, 
     { title: "⚙️ Backend", items: ["Java", "PHP", "Node.js", "TypeScript", "Express.js", "SQL"]}, 
-    { title: "🛠️ Tools", items: ["Canva", "Figma", "IntelliJ", "Visual Studio Code", "MySQL", "WordPress", "Git", "GitHub", "Trello", "Tailwind CSS", 
+    { title: "🛠️ Tools", items: ["Canva", "Figma", "IntelliJ", "Visual Studio Code", "MySQL", "WordPress", "Webflow", "Git", "GitHub", "Trello", "Tailwind CSS", 
         "NPM (Node Package Manager)", "Rocky Linux", "Windows", "Vite", "PuTTY"]}
 ];
 
