@@ -102,7 +102,7 @@ export default function Contact() {
             <a href="mailto:jacobhaney224@gmail.com">jacobhaney224@gmail.com</a>
         </section>
 
-        <form ref={formRef} name="contact" method="POST" netlify className="flex flex-col items-center mx-auto mt-10">
+        <form ref={formRef} name="contact" method="POST" data-netlify="true" className="flex flex-col items-center mx-auto mt-10">
             <h2>Send Me A Message</h2>
 
             <label htmlFor="name">Name *</label>
