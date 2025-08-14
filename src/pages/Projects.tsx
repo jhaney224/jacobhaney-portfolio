@@ -55,23 +55,9 @@ export default function Projects() {
     return (
     <>
         <Hero heading="Projects" subtext=""/>
-        <p ref={descriptionRef} className='text-center'>Here are some projects I've built, contributed to, or maintained.</p>
+        <p ref={descriptionRef} className='text-center'>These are projects of mine that show problem-solving and technical implementation.</p>
 
         <div ref={gridRef} className='grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3 auto-rows-fr'>
-            <ProjectCard projectId='ulti-studios-website' projectName='Ulti Studios Website' showcaseImg='/ultistudiosweb.png' 
-            showcaseImgAltText='The homepage of the Ulti Studios site.'
-            description="The current website of my entrepreneur project, Ulti Studios."
-            techTags={['Vue.js', 'Nuxt', 'Tailwind CSS', 'Netlify']} 
-            previewURL='https://ultistudios.co/'
-            gitHubURL='https://github.com/jhaney224/ulti-studios-site-showcase'/>
-
-            <ProjectCard projectId='skyhavenmc' projectName='SkyhavenMC Website' showcaseImg='/skyhavenmc.png' 
-            showcaseImgAltText='The homepage of the SkyHavenMC site.'
-            description="A fictional Minecraft server landing page."
-            techTags={['React.js', 'Vite', 'Tailwind CSS', 'Motion']} 
-            previewURL='https://skyhavenmc.netlify.app'
-            gitHubURL='https://github.com/jhaney224/skyhavenmc'/>
-
            <ProjectCard projectId='reactjs-habit-tracker' projectName='React.js Habit Tracker' showcaseImg='/reactjs-habit-tracker.png' 
             description="A basic habit tracker built using React.js that showcases a few React concepts like components and custom hooks."
             showcaseImgAltText='A page where you can manage your habits.'
@@ -107,6 +93,20 @@ export default function Projects() {
             description="From my HTML & CSS final, this is a website that explains about meta tags and why they should be used."
             techTags={['HTML/CSS']} 
             gitHubURL='https://github.com/jhaney224/html-css-final'/>
+
+            <ProjectCard projectId='ulti-studios-website' projectName='Ulti Studios Website' showcaseImg='/ultistudiosweb.png' 
+            showcaseImgAltText='The homepage of the Ulti Studios site.'
+            description="The current website of Ulti Studios."
+            techTags={['Vue.js', 'Nuxt', 'Tailwind CSS', 'Netlify']} 
+            previewURL='https://ultistudios.co/'
+            gitHubURL='https://github.com/jhaney224/ulti-studios-site-showcase'/>
+
+            <ProjectCard projectId='skyhavenmc' projectName='SkyhavenMC Website' showcaseImg='/skyhavenmc.png' 
+            showcaseImgAltText='The homepage of the SkyHavenMC site.'
+            description="A fictional Minecraft server landing page."
+            techTags={['React.js', 'Vite', 'Tailwind CSS', 'Motion']} 
+            previewURL='https://skyhavenmc.netlify.app'
+            gitHubURL='https://github.com/jhaney224/skyhavenmc'/>
         </div>
     </>
     )

@@ -3,10 +3,11 @@ import '../assets/css/App.css'
 import Hero from '../components/Hero.tsx';
 import TechTag from '../components/TechTag.tsx';
 import { SiTypescript } from "react-icons/si";
-import { FaJava, FaNodeJs, FaVuejs, FaReact } from "react-icons/fa";
+import { FaJava, FaNodeJs, FaVuejs, FaReact, FaPhone } from "react-icons/fa";
 import { RiTailwindCssFill } from "react-icons/ri";
 import ProjectCard from '../components/ProjectCard.tsx';
 import { gsap } from '../gsapUtils.tsx';
+import { FaGears, FaMagnifyingGlass } from 'react-icons/fa6';
 
 export default function Index() {
   // Metadata
@@ -82,7 +83,7 @@ export default function Index() {
   // Main Content
   return (
     <>
-      <Hero heading="Hi, I'm Jacob." subtext='Aspiring Web Developer. Problem Solver. Builder of cool things.'
+      <Hero heading="Hi, I'm Jacob." subtext='Entry-Level IT Professional & Aspiring Web/Software Developer. Problem Solver & Troubleshooter. Building practical solutions.'
         heroButtons={[
           {
             label: "View Projects",
@@ -100,6 +101,10 @@ export default function Index() {
         <h2 ref={skillsTitleRef} className="text-center">Skills Snapshot</h2>
 
         <div ref={skillsGridRef} className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-between'>
+          <TechTag name='Troubleshooting' reactIcon={FaMagnifyingGlass}/>
+          <TechTag name='System Configuration & OS Basics' reactIcon={FaGears}/>
+          <TechTag name='End-User Support' reactIcon={FaPhone}/>
+
           <TechTag name='React.js' reactIcon={FaReact}/>
           <TechTag name='Vue.js' reactIcon={FaVuejs}/>
           <TechTag name='Tailwind CSS' reactIcon={RiTailwindCssFill}/>
@@ -113,7 +118,7 @@ export default function Index() {
         <h2 ref={featuredTitleRef} className="text-center">Featured Project</h2>
 
         <ProjectCard projectId='ulti-studios' projectName='Ulti Studios' showcaseImg='/ultistudiosweb.png' showcaseImgAltText='The homepage of the Ulti Studios site.'
-          description="An entrepreneur project, where I provide Minecraft server services through a small team. I've developed and design its site and I currently maintain it."
+          description="Built and deployed a client-facing provider, applying both development and IT troubleshooting skills. This is the website for it."
           techTags={['Vue.js', 'Nuxt', 'Tailwind CSS', 'Netlify', 'Node.js']} 
           previewURL='https://ultistudios.co/'/>
       </section>
