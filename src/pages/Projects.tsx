@@ -94,13 +94,6 @@ export default function Projects() {
             techTags={['HTML/CSS']} 
             gitHubURL='https://github.com/jhaney224/html-css-final'/>
 
-            <ProjectCard projectId='ulti-studios-website' projectName='Ulti Studios Website' showcaseImg='/ultistudiosweb.png' 
-            showcaseImgAltText='The homepage of the Ulti Studios site.'
-            description="The current website of Ulti Studios."
-            techTags={['Vue.js', 'Nuxt', 'Tailwind CSS', 'Netlify']} 
-            previewURL='https://ultistudios.co/'
-            gitHubURL='https://github.com/jhaney224/ulti-studios-site-showcase'/>
-
             <ProjectCard projectId='skyhavenmc' projectName='SkyhavenMC Website' showcaseImg='/skyhavenmc.png' 
             showcaseImgAltText='The homepage of the SkyHavenMC site.'
             description="A fictional Minecraft server landing page."
