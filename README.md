@@ -29,7 +29,7 @@ This is my personal developer portfolio site built with **React**, **TypeScript*
 ---
 
 ## 🙋‍♂️ About Me
-I'm an aspiring web developer, the creator of Ulti Studios, and someone who enjoys building things that help people. I’m also on the autism spectrum, which shapes how I see the world — with deep attention to logic, detail, and systems. I love making clean, purposeful experiences on the web and in games.
+I'm an aspiring web developer, entry-level IT professional, and someone who enjoys building things that help people. I’m also on the autism spectrum, which shapes how I see the world — with deep attention to logic, detail, and systems. I love making clean, purposeful experiences on the web and in games.
 
 ## 📫 Contact
 **GitHub**: [@jhaney224](https://github.com/jhaney224)<br>
