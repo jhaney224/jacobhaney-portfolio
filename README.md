@@ -1,6 +1,6 @@
 # Jacob Haney – Personal Portfolio
 
-This is my personal developer portfolio site built with **React**, **TypeScript**, and **Tailwind CSS**, showcasing my work, skills, and the story behind Ulti Studios. The site is designed to be clean, accessible, and responsive, with animations powered by **GSAP**.
+This is my personal developer portfolio site built with **React**, **TypeScript**, and **Tailwind CSS**, showcasing my work and skills. The site is designed to be clean, accessible, and responsive, with animations powered by **GSAP**.
 
 ## 🌐 Live Site
 [https://jacobhaney.dev](https://jacobhaney.dev)
