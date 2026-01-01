@@ -98,7 +98,6 @@ export default function Projects() {
             showcaseImgAltText='The homepage of the SkyHavenMC site.'
             description="A fictional Minecraft server landing page."
             techTags={['React.js', 'Vite', 'Tailwind CSS', 'Motion']} 
-            previewURL='https://skyhavenmc.netlify.app'
             gitHubURL='https://github.com/jhaney224/skyhavenmc'/>
         </div>
     </>
