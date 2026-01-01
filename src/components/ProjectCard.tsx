@@ -91,11 +91,11 @@ export default function ProjectCard({projectId, projectName, showcaseImg, showca
 
             <div ref={buttonsRef} className="flex flex-col gap-2 mt-auto">
                 { (previewURL !== undefined && previewURL !== "") && 
-                <button onClick={() => window.open(previewURL, '_blank', 'noopener,noreferrer')}>Preview Project</button>
+                    <button onClick={() => window.open(previewURL, '_blank', 'noopener,noreferrer')}>Preview Project</button>
                 }
 
                 { (gitHubURL !== undefined && gitHubURL !== "") && 
-                <button onClick={() => window.open(gitHubURL, '_blank', 'noopener,noreferrer')}>Source Code</button>
+                    <button onClick={() => window.open(gitHubURL, '_blank', 'noopener,noreferrer')}>Source Code</button>
                 }
             </div>
             

@@ -26,9 +26,18 @@ const educationCards = [
 
 const workExperienceCards = [
     {
+        title: "Moore RMG - Topeka, KS",
+        description: [
+            "<i>Credit Card Clerk • Sept 2025 – Present</i>",
+            "• Key in customer info from donation mailings.",
+            "• Verify info to ensure accuracy and compliance.",
+            "• Complete takeouts, removing declined transactions from completed batches."
+        ]
+    },
+    {
         title: "Ulti Studios – Remote",
         description: [
-            "<i>Technical Team Lead • Oct 2020 – Present (part-time while seeking full-time employment)</i>",
+            "<i>Technical Team Lead • Oct 2020 – Oct 2025</i>",
             "• Delivered technical solutions for end-users and clients, including diagnosing and resolving issues, configuring systems, and implementing software features.",
             "• Managed client communications, documentation, and technical project timelines.",
             "• Coordinated a remote team to deliver custom technical solutions to clients."
