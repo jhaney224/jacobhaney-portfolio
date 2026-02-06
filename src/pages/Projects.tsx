@@ -58,6 +58,12 @@ export default function Projects() {
         <p ref={descriptionRef} className='text-center'>These are projects of mine that show problem-solving and technical implementation.</p>
 
         <div ref={gridRef} className='grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3 auto-rows-fr'>
+            <ProjectCard projectId='recipe-collector' projectName='Recipe Collector' showcaseImg='/recipe-collector.png' 
+            description="A small web app for collecting and managing recipes using Vue, IndexedDB, and Tailwind CSS."
+            showcaseImgAltText='A page where you can manage your habits.'
+            techTags={['Vue.js', 'IndexedDB', 'TailwindCSS']} 
+            gitHubURL='https://github.com/jhaney224/recipe-collector'/>
+
            <ProjectCard projectId='reactjs-habit-tracker' projectName='React.js Habit Tracker' showcaseImg='/reactjs-habit-tracker.png' 
             description="A basic habit tracker built using React.js that showcases a few React concepts like components and custom hooks."
             showcaseImgAltText='A page where you can manage your habits.'
