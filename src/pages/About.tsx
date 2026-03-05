@@ -76,7 +76,7 @@ const funFactCards = [
 const categoriesAndSkills = [
     { title: "📞 IT Support Skills", items: ["End-User Support", "Hardware/Software Troubleshooting", "Familiar with Ticketing Systems", "System Configuration", 
         "Basic Networking"]},
-    { title: "</> Frontend", items: ["HTML", "CSS", "JavaScript", "React.js", "Vue.js", "TypeScript"]}, 
+    { title: "</> Frontend", items: ["HTML", "CSS", "JavaScript", "React.js", "Vue.js", "TypeScript", "IndexedDB"]}, 
     { title: "⚙️ Backend", items: ["Java", "PHP", "Node.js", "TypeScript", "Express.js", "SQL"]}, 
     { title: "🛠️ Tools", items: ["Canva", "Figma", "IntelliJ", "Visual Studio Code", "MySQL", "WordPress", "Webflow", "Git", "GitHub", "Trello", "Tailwind CSS", 
         "NPM (Node Package Manager)", "Rocky Linux", "Windows", "Vite", "PuTTY", "Google Workspace", "Microsoft 365"]}
