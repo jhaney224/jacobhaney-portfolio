@@ -29,16 +29,16 @@ const workExperienceCards = [
         title: "Moore RMG - Topeka, KS",
         description: [
             "<i>Credit Card Clerk • Sept 2025 – Present</i>",
-            "• Key in customer info from donation mailings.",
-            "• Verify info to ensure accuracy and compliance.",
-            "• Complete takeouts, removing declined transactions from completed batches."
+            "• Key customer and credit card info into Mavro from donation mailings sent by clients.",
+            "• Complete takeouts, removing declined transactions from completed batches.",
+            "• Bundle and put away rejected documents to send to the return mail department."
         ]
     },
     {
         title: "Ulti Studios – Remote",
         description: [
             "<i>Technical Team Lead • Oct 2020 – Oct 2025</i>",
-            "• Delivered technical solutions for end-users and clients, including diagnosing and resolving issues, configuring systems, and implementing software features.",
+            "• Delivered technical solutions for end-users and clients, including diagnosing and resolving issues and implementing software features.",
             "• Managed client communications, documentation, and technical project timelines.",
             "• Coordinated a remote team to deliver custom technical solutions to clients."
         ]
@@ -53,7 +53,10 @@ const workExperienceCards = [
     },
     { 
         title: "Freddy’s Frozen Custard & Steakburgers – Lawrence, KS", 
-        description: ["<i>Coldline Team Member • Nov 2022 – Apr 2023</i>", "• Took and fulfilled guest orders, cleaned prep stations, and supported team tasks."]
+        description: [
+            "<i>Coldline Team Member • Nov 2022 – Apr 2023</i>", 
+            "• Took and fulfilled guest orders, cleaned prep stations, and supported team tasks."
+        ]
     },
     { 
         title: "Visiting Nurses Association – Lawrence, KS", 
