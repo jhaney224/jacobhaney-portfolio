@@ -29,7 +29,7 @@ const workExperienceCards = [
         title: "Moore RMG - Topeka, KS",
         description: [
             "<i>Data Services Associate • Jun 2026 – Present</i>",
-            "• Verify and balance batches before deposits and reports are sent to banks and clients",
+            "• Verify and balance releases before deposits and reports are sent to banks and clients",
             "• Audit for accuracy and reporting compliance.",
         ]
     },
