@@ -28,10 +28,18 @@ const workExperienceCards = [
     {
         title: "Moore RMG - Topeka, KS",
         description: [
-            "<i>Credit Card Clerk • Sept 2025 – Present</i>",
-            "• Key customer and credit card info into Mavro from donation mailings sent by clients.",
-            "• Complete takeouts, removing declined transactions from completed batches.",
-            "• Bundle and put away rejected documents to send to the return mail department."
+            "<i>Data Services Associate • Jun 2026 – Present</i>",
+            "• Verify and balance batches before deposits and reports are sent to banks and clients",
+            "• Audit for accuracy and reporting compliance.",
+        ]
+    },
+    {
+        title: "Moore RMG - Topeka, KS",
+        description: [
+            "<i>Credit Card Clerk • Sept 2025 – Jun 2026</i>",
+            "• Keyed customer and credit card info into Mavro from donation mailings sent by clients.",
+            "• Completed takeouts, removing declined transactions from completed batches.",
+            "• Bundled and put away rejected documents to send to the return mail department."
         ]
     },
     {
