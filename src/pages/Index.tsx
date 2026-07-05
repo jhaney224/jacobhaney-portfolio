@@ -58,7 +58,7 @@ export default function Index() {
   // Main Content
   return (
     <>
-      <Hero heading="Hi, I'm Jacob." subtext='Entry-Level IT Professional & Aspiring Aspiring Web/Software Dev or System Administrator/DevOps Engineer.'
+      <Hero heading="Hi, I'm Jacob." subtext='Entry-Level IT Professional & Aspiring Web/Software Dev or System Administrator/DevOps Engineer.'
         heroButtons={[
           {
             label: "View Projects",
