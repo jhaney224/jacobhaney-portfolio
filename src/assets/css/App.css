@@ -23,7 +23,7 @@
 
 /* HTML Tags */
 section {
-  @apply p-5 mt-10;
+  @apply p-5 mt-10 mb-10;
 }
 
 :is(h1, h2, h3, h4, h5, h6) {
@@ -55,8 +55,8 @@ a {
 }
 
 label {
-    font-optical-sizing: auto;
     @apply font-poppins font-bold not-italic block mb-2;
+    font-optical-sizing: auto;
 }
 
 input, textarea {
@@ -86,7 +86,7 @@ button, .button {
 @keyframes gradientShift {
   0%, 100% {
     background-position: 0% 50%;
-  }W
+  }
 
   50% {
     background-position: 100% 50%;

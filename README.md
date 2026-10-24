@@ -21,10 +21,10 @@ This is my personal developer portfolio site built with **React**, **TypeScript*
 
 ## 🚀 Pages
 
-- `/` – Home (intro, skills, featured work)
-- `/about` – Background, skills, story, fun facts
-- `/projects` – Selected project highlights with links
-- `/contact` – Contact form + social links
+- `/` - Home (intro, skills, featured work)
+- `/about` - Background, skills, story, fun facts
+- `/projects` - Selected project highlights with links
+- `/contact` - Contact form + social links
 
 ---
 

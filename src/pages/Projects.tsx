@@ -2,6 +2,7 @@ import { useEffect, useRef } from 'react';
 import Hero from '../components/Hero.tsx';
 import ProjectCard from '../components/ProjectCard.tsx';
 import { gsap } from '../gsapUtils.tsx';
+import TextCard from '../components/TextCard.tsx';
 
 export default function Projects() {
     // Metadata
@@ -12,14 +13,13 @@ export default function Projects() {
         if (metaDescription) metaDescription.setAttribute('content', 'Curious to see what Jacob has been working on? Check out his projects here.');
     });
 
-    const descriptionRef = useRef<HTMLParagraphElement>(null);
     const gridRef = useRef<HTMLDivElement>(null);
 
     // Animations
     useEffect(() => {
         const ctx = gsap.context(() => {
             // Initial state
-            gsap.set([descriptionRef.current, gridRef.current], {
+            gsap.set([gridRef.current], {
                 opacity: 0,
                 y: 30
             });
@@ -27,17 +27,11 @@ export default function Projects() {
             // Staggered entrance animation
             gsap.timeline({
                 scrollTrigger: {
-                    trigger: descriptionRef.current,
+                    trigger: gridRef.current,
                     start: "top 80%",
                     end: "bottom 20%",
                     toggleActions: "play none none reverse"
                 }
-            })
-            .to(descriptionRef.current, {
-                opacity: 1,
-                y: 0,
-                duration: 0.6,
-                ease: "power2.out"
             })
             .to(gridRef.current, {
                 opacity: 1,
@@ -55,9 +49,14 @@ export default function Projects() {
     return (
     <>
         <Hero heading="Projects" subtext=""/>
-        <p ref={descriptionRef} className='text-center'>These are projects of mine that show problem-solving and technical implementation.</p>
 
         <div ref={gridRef} className='grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3 auto-rows-fr'>
+            <ProjectCard projectId='dark-fury-improvement' projectName='Dark Fury Mobile Revamp' showcaseImg='/dark-fury.png' 
+            description="Improved the responsive experience of an existing PHP-based website, while preserving the site's existing architecture."
+            showcaseImgAltText='The homepage of the Dark Fury site.'
+            techTags={['PHP', 'HTML/CSS', 'Responsive Design']} 
+            previewURL='https://www.darkfury.net'/>
+
             <ProjectCard projectId='recipe-collector' projectName='Recipe Collector' showcaseImg='/recipe-collector.png' 
             description="A small web app for collecting and managing recipes using Vue, IndexedDB, and Tailwind CSS."
             showcaseImgAltText='A page where you can manage your habits.'
@@ -105,6 +104,18 @@ export default function Projects() {
             description="A fictional Minecraft server landing page."
             techTags={['React.js', 'Vite', 'Tailwind CSS', 'Motion']} 
             gitHubURL='https://github.com/jhaney224/skyhavenmc'/>
+        </div>
+
+        <h2 className='pt-30 text-center'>Currently Building/Focusing On</h2>
+        <div className='grid grid-cols-1 gap-6 mt-10 mb-10 md:grid-cols-2 lg:grid-cols-3 auto-rows-fr'>
+            <TextCard id="job-board" name="Job Board" 
+            description="Planning and developing an accessible platform for an employment services business, connecting job seekers with disabilities to opportunities from employer partners." />
+
+            <TextCard id="client-web-development" name="Client Web Development" 
+            description="I'm beginning work with small businesses on practical, responsive websites while building experience in requirements gathering, client communication, and project delivery." />
+            
+            <TextCard id="full-stack-development" name="Full-Stack Development" 
+            description="I'm currently focusing on expanding my full-stack development experience through client projects." />
         </div>
     </>
     )

@@ -29,8 +29,7 @@ const workExperienceCards = [
             "<i>Data Services Associate • Jun 2026 – Present</i>",
             "• Review and verify donation/batch totals keyed by production before deposits and reports are sent to banks and clients.",
             "• Work with time-sensitive clients while maintaining accuracy.",
-            "• Coordinate with internal teams when problems arise.",
-            "• Communicate with Operation Managers, Account Managers, and software developers as needed."
+            "• Communicate with Operation Managers, Account Managers, and Software Developers as needed."
         ]
     },
     {
@@ -78,16 +77,15 @@ const workExperienceCards = [
 ];
 
 const funFactCards = [
-    { title: "#1", description: ["A couple of other things I enjoy are creative writing and storytelling."] },
-    { title: "#2", description: ["Faith and empathy guide how I approach end-user support, collaboration, and client work."] },
-    { title: "#3", description: ["I’m on the autism spectrum, which means I’m often the one who spots what others overlook."] },
-    { title: "#4", description: ["I enjoy learning how things work — whether it’s software or something completely different."] }
+    { title: "#1", description: ["Faith and empathy guide how I approach collaboration and client work."] },
+    { title: "#2", description: ["I’m on the autism spectrum, which means I’m often the one who spots what others overlook."] },
+    { title: "#3", description: ["I enjoy learning how things work. Whether it’s software or something completely different."] }
 ]
 
 const categoriesAndSkills = [
-    { title: "</> Frontend", items: ["HTML", "CSS", "JavaScript", "React.js", "Vue.js", "TypeScript", "IndexedDB"]}, 
+    { title: "</> Frontend", items: ["HTML", "CSS", "JavaScript", "React.js", "Vue.js", "TypeScript", "IndexedDB", "Responsive Design", "Accessibility"]}, 
     { title: "⚙️ Backend", items: ["Java", "PHP", "Node.js", "TypeScript", "Express.js", "SQL"]}, 
-    { title: "🛠️ Tools", items: ["Canva", "Figma", "IntelliJ", "Visual Studio Code", "MySQL", "WordPress", "Webflow", "Git", "GitHub", "Trello", "Tailwind CSS", "NPM (Node Package Manager)", "Rocky Linux", "Windows", "Vite", "PuTTY", "Google Workspace", "Microsoft 365"]}
+    { title: "🛠️ Tools", items: ["Canva", "Figma", "IntelliJ", "Visual Studio Code", "MySQL", "WordPress", "Git", "GitHub", "GitHub Copilot", "Trello", "Tailwind CSS", "NPM (Node Package Manager)", "Windows", "Vite"]}
 ];
 
 export default function About() {
@@ -179,7 +177,7 @@ export default function About() {
 
         <div ref={introRef} className='grid grid-cols-1 gap-5 md:grid-cols-3'>
             <p ref={textRef} className='md:col-start-1 md:col-end-3'>
-                I'm a developer with experience in JavaScript, TypeScript, React, PHP, APIs, and responsive web development. I enjoy turning problems into practical, maintainable solutions. I'm currently expanding my full-stack development experience through production and client projects.
+                I'm a developer with experience in JavaScript, TypeScript, React, PHP, APIs, and responsive web development. I enjoy turning problems into practical, maintainable solutions. I'm currently expanding my full-stack development experience through client projects.
             </p>
             <img ref={imageRef} className='rounded-4xl' src="/jacobhaneypfp-300x300.png" alt="Picture of Jacob Haney." />
         </div>
