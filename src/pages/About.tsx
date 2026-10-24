@@ -9,9 +9,7 @@ const educationCards = [
         description: [
             "<i>Johnson County Community College, Overland Park, KS (Jan 2023 - Dec 2024)</i>",
             "• Phi Theta Kappa Honor Society",
-            "• VP, Neurodiversity Support Club",
-            "• Includes IT 120: CompTIA A+ Core 2, a course aligned with the CompTIA A+ Core 2 certification exam."
-        ]
+            "• VP, Neurodiversity Support Club"        ]
     },
     { title: "PHP For WordPress", description: ["<i>LinkedIn (Earned in Jul 2025)</i>"]},
     { title: "Learning Webflow", description: ["<i>LinkedIn (Earned in Jul 2025)</i>"]},
@@ -29,8 +27,10 @@ const workExperienceCards = [
         title: "Moore RMG - Topeka, KS",
         description: [
             "<i>Data Services Associate • Jun 2026 – Present</i>",
-            "• Verify and balance releases before deposits and reports are sent to banks and clients.",
-            "• Audit for accuracy and reporting compliance.",
+            "• Review and verify donation/batch totals keyed by production before deposits and reports are sent to banks and clients.",
+            "• Work with time-sensitive clients while maintaining accuracy.",
+            "• Coordinate with internal teams when problems arise.",
+            "• Communicate with Operation Managers, Account Managers, and software developers as needed."
         ]
     },
     {
@@ -81,16 +81,13 @@ const funFactCards = [
     { title: "#1", description: ["A couple of other things I enjoy are creative writing and storytelling."] },
     { title: "#2", description: ["Faith and empathy guide how I approach end-user support, collaboration, and client work."] },
     { title: "#3", description: ["I’m on the autism spectrum, which means I’m often the one who spots what others overlook."] },
-    { title: "#4", description: ["I enjoy learning how things work — whether it’s software or a mechanical keyboard."] }
+    { title: "#4", description: ["I enjoy learning how things work — whether it’s software or something completely different."] }
 ]
 
 const categoriesAndSkills = [
-    { title: "📞 IT Support Skills", items: ["End-User Support", "Hardware/Software Troubleshooting", "Familiar with Ticketing Systems", "System Configuration", 
-        "Basic Networking"]},
     { title: "</> Frontend", items: ["HTML", "CSS", "JavaScript", "React.js", "Vue.js", "TypeScript", "IndexedDB"]}, 
     { title: "⚙️ Backend", items: ["Java", "PHP", "Node.js", "TypeScript", "Express.js", "SQL"]}, 
-    { title: "🛠️ Tools", items: ["Canva", "Figma", "IntelliJ", "Visual Studio Code", "MySQL", "WordPress", "Webflow", "Git", "GitHub", "Trello", "Tailwind CSS", 
-        "NPM (Node Package Manager)", "Rocky Linux", "Windows", "Vite", "PuTTY", "Google Workspace", "Microsoft 365"]}
+    { title: "🛠️ Tools", items: ["Canva", "Figma", "IntelliJ", "Visual Studio Code", "MySQL", "WordPress", "Webflow", "Git", "GitHub", "Trello", "Tailwind CSS", "NPM (Node Package Manager)", "Rocky Linux", "Windows", "Vite", "PuTTY", "Google Workspace", "Microsoft 365"]}
 ];
 
 export default function About() {
@@ -182,8 +179,7 @@ export default function About() {
 
         <div ref={introRef} className='grid grid-cols-1 gap-5 md:grid-cols-3'>
             <p ref={textRef} className='md:col-start-1 md:col-end-3'>
-                I have an entry-level IT background with experience in technical troubleshooting, end-user support, and customer service. My web development background 
-                gives me a different approach to IT problems, with experience in building and maintaining software and websites.
+                I'm a developer with experience in JavaScript, TypeScript, React, PHP, APIs, and responsive web development. I enjoy turning problems into practical, maintainable solutions. I'm currently expanding my full-stack development experience through production and client projects.
             </p>
             <img ref={imageRef} className='rounded-4xl' src="/jacobhaneypfp-300x300.png" alt="Picture of Jacob Haney." />
         </div>

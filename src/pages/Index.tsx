@@ -3,10 +3,9 @@ import '../assets/css/App.css'
 import Hero from '../components/Hero.tsx';
 import TechTag from '../components/TechTag.tsx';
 import { SiTypescript } from "react-icons/si";
-import { FaJava, FaNodeJs, FaVuejs, FaReact, FaPhone } from "react-icons/fa";
+import { FaJava, FaNodeJs, FaVuejs, FaReact } from "react-icons/fa";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { gsap } from '../gsapUtils.tsx';
-import { FaGears, FaMagnifyingGlass } from 'react-icons/fa6';
 
 export default function Index() {
   // Metadata
@@ -58,7 +57,7 @@ export default function Index() {
   // Main Content
   return (
     <>
-      <Hero heading="Hi, I'm Jacob." subtext='Entry-Level IT Professional & Aspiring Web/Software Dev or System Administrator/DevOps Engineer.'
+      <Hero heading="Hi, I'm Jacob." subtext='Web Developer | Building Useful Software for Real-World Problems'
         heroButtons={[
           {
             label: "View Projects",
@@ -76,10 +75,6 @@ export default function Index() {
         <h2 ref={skillsTitleRef} className="text-center">Skills Snapshot</h2>
 
         <div ref={skillsGridRef} className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-between'>
-          <TechTag name='Troubleshooting' reactIcon={FaMagnifyingGlass}/>
-          <TechTag name='System Configuration & OS Basics' reactIcon={FaGears}/>
-          <TechTag name='End-User Support' reactIcon={FaPhone}/>
-
           <TechTag name='React.js' reactIcon={FaReact}/>
           <TechTag name='Vue.js' reactIcon={FaVuejs}/>
           <TechTag name='Tailwind CSS' reactIcon={RiTailwindCssFill}/>
