@@ -177,7 +177,7 @@ export default function About() {
 
         <div ref={introRef} className='grid grid-cols-1 gap-5 md:grid-cols-3'>
             <p ref={textRef} className='md:col-start-1 md:col-end-3'>
-                I'm a developer with experience in JavaScript, TypeScript, React, PHP, APIs, and responsive web development. I enjoy turning problems into practical, maintainable solutions. I'm currently expanding my full-stack development experience through client projects.
+                I'm a developer with experience in JavaScript, TypeScript, React, PHP, APIs, and responsive web development. I enjoy turning problems into practical, maintainable, and accessible solutions. I'm currently expanding my full-stack development experience through client projects.
             </p>
             <img ref={imageRef} className='rounded-4xl' src="/jacobhaneypfp-300x300.png" alt="Picture of Jacob Haney." />
         </div>
